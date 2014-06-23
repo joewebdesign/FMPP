@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="eng" lang="eng">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Scriptiny | Moving Clouds Animation using Spritely 0.6</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <style type="text/css">
+        
+        .stage {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-width: 900px;
+            height: 100%;
+            overflow: hidden;
+            z-index: 100;
+        }
+        .far-clouds {
+            background: transparent url(img/far-clouds.png) 305px 102px repeat-x;
+        }
+        .near-clouds {
+            background: transparent url(img/near-clouds.png) 305px 162px repeat-x;
+        }
+        .mainContent{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 101;    
+        }
+    </style>
+    
+    <script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
+    <script src="js/jquery.spritely-0.6.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function() {
+                $('#far-clouds').pan({fps: 30, speed: 0.7, dir: 'left', depth: 30});
+                $('#near-clouds').pan({fps: 30, speed: 1, dir: 'left', depth: 70});
+                
+                window.actions = {
+                    speedyClouds: function(){
+                        $('#far-clouds').spSpeed(12);
+                        $('#near-clouds').spSpeed(20);
+                    },
+                    runningClouds: function(){
+                        $('#far-clouds').spSpeed(8);
+                        $('#near-clouds').spSpeed(12);
+                    },
+                    walkingClouds: function(){
+                        $('#far-clouds').spSpeed(3);
+                        $('#near-clouds').spSpeed(5);
+                    },
+                    lazyClouds: function(){
+                        $('#far-clouds').spSpeed(0.7);
+                        $('#near-clouds').spSpeed(1);
+                    },
+                    stop: function(){
+                        $('#far-clouds, #near-clouds').spStop();
+                    },
+                    start: function(){
+                        $('#far-clouds, #near-clouds').spStart();
+                    },
+                    toggle: function(){
+                        $('#far-clouds, #near-clouds').spToggle();
+                    },
+                    left: function(){
+                        $('#far-clouds, #near-clouds').spChangeDir('left');                    
+                    },
+                    right: function(){
+                        $('#far-clouds, #near-clouds').spChangeDir('right');                    
+                    }
+                };
+            });    
+    </script>
+</head>
+<body>
+<div class="container">
+    <div id="far-clouds" class="far-clouds stage"></div>
+    <div id="near-clouds" class="near-clouds stage"></div>
+
+    <div class="mainContent">
+        <h1>Moving Clouds Animation using Spritely 0.6</h1>
+        <div>
+            <p>Fun! Checkout the near & far clouds travelling towards a direction with differnt speeds and passing each other.</p>
+            <p>&nbsp;</p>
+            <p>You can use this animation in your web pages to present a composition that your page in the cloudy & gentle sky, also instead of vector clouds you can use illustrated meadow or other landscape views for panning. I am sure that you don’t want to miss the interesting animation at <a href="http://www.spritely.net/">Spritely</a>.</p>
+            <p>&nbsp;</p>
+            <p>More options</p>
+            <p>
+            <a href="#" onclick="actions.speedyClouds();">Speedy Clouds</a> | 
+                <a href="#" onclick="actions.runningClouds()">Running Clouds</a> | 
+                <a href="#" onclick="actions.walkingClouds()">Walking Clouds</a> | 
+    
+                <a href="#" onclick="actions.lazyClouds()">Lazy Clouds</a> | 
+                <a href="#" onclick="actions.stop()">Stop</a> | 
+                <a href="#" onclick="actions.start()">Start</a> |
+                <a href="#" onclick="actions.toggle()">Toggle</a> |
+                <a href="#" onclick="action.left()">Windy to left</a> | 
+                <a href="#" onclick="actions.right()">Windy to right</a> 
+            </p>
+            <p>&nbsp;</p>
+            <p>(Flying Kites or Birds in the sky? or how about a Alien Saucer? Wait for my next episode...)</p>            
+            <p>&nbsp;</p>
+            <p>This is a educational purpose demo authored by  <a href="http://www.twitter.com/mahtonu" title="M A Hossain Tonu" target="_blank">M A Hossain Tonu</a>. Learn more at Spritely <a href="http://www.spritely.net/documentation/" title="Spritely documentation" target="_blank">documentation</a>.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
