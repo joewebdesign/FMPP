@@ -137,9 +137,9 @@
 </div>
 
 <div class="framejoe" > 
-<img src="http://fluffymaplepuffpuffs.com/wp-content/uploads/2014/06/upperside1.png"> 
+<img style="framesideup" src="http://fluffymaplepuffpuffs.com/wp-content/uploads/2014/06/upperside1.png"> 
 </div>
-<!--
+
 <div class="leftframejoe" > 
 <img class="framesidejoe" src="http://fluffymaplepuffpuffs.com/wp-content/uploads/2014/06/leftside1.png"> 
 </div>
@@ -147,8 +147,8 @@
 <img class="framesidejoe" src="http://fluffymaplepuffpuffs.com/wp-content/uploads/2014/06/leftside1.png"> 
 </div>
 <div class="framejoedown" > 
-<img src="http://fluffymaplepuffpuffs.com/wp-content/uploads/2014/06/upperside1.png"> 
-</div>-->
+<img style="framesidedown" src="http://fluffymaplepuffpuffs.com/wp-content/uploads/2014/06/lowerside1.png"> 
+</div>
 
 
 
