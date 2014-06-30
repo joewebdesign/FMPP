@@ -38,13 +38,8 @@ Text Domain: iamd_text_domain
 
 	body { font-weight:normal; font-size:13px; color:#5a5a5a;
 	
-
-
-
-
-
-
 }
+
 
 /*
 .bgr1 {
@@ -794,7 +789,7 @@ background-size: 105% 32%, 100% 100%;*/
 		
 		position:fixed; 
 		z-index:1000; 
-		top:6.3em;
+		top:5.1em;
 		
 		}
 		
@@ -821,6 +816,514 @@ background-size: 105% 32%, 100% 100%;*/
 	}
 	
 	
+	
+	/*1280 screen width*/
+	
+	@media screen and (width: 1280px){
+	/* Styles */
+	html {
+	height:inherit;
+	background: url('http://www.fluffymaplepuffpuffs.com/wp-content/uploads/2014/05/bgr.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position-y: -6%;
+		}
+		
+	.main-content {
+	/*margin-top: -6.5%*/
+	top: -64em;
+	height: 470px;
+		
+		}
+	
+	.framejoe {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*max-height: 20px;
+	margin-top: -17%;*/
+	top: -17.35em;
+	}
+	.framejoedown {
+		margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*margin-top: -17%;*/
+	top: -38.31em;
+		}
+	
+	.leftframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 36px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-left: 10%;
+	/*margin-top: -1.3%;*/
+	top: -18.1em;
+		}
+	.rightframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 35.5px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-right: 8.8%;
+	/*margin-top: -1.3%;*/
+	top: -37.7em;
+		
+		
+		}
+	
+	.framesidejoe {
+		width: 48.5%;
+		
+		}
+		
+	#joefixed {
+		
+		position:fixed; 
+		z-index:1000; 
+		top:4.6em;
+		
+		}
+		
+	.bannerjoe {
+	top:-16em;
+	margin-left: 0.5%;
+	margin-bottom: 3%;
+	position: relative;
+	z-index: 0;
+		
+		}
+	.iosifbranch {	/*----   Added by Iosif Crisan   ----*/
+	background-size: 50% 0%;
+	width: 27%;
+	position: relative;
+	z-index: 1;
+	margin-left: 84%;
+	/*margin-top:-9%}*/
+	top:-62em; }
+	
+	.banner { /*Distance from top for the revolution slider*/
+		margin-top: 3.9em;
+		}
+	}
+	
+	/*1920 screen width*/
+	
+	@media screen and (width: 1920px){
+	/* Styles */
+	html {
+	height:inherit;
+	background: url('http://www.fluffymaplepuffpuffs.com/wp-content/uploads/2014/05/bgr.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position-y: -6%;
+		}
+		
+	.main-content {
+	/*margin-top: -6.5%*/
+	top: -67em;
+	height: 470px;
+		
+		}
+	
+	.framejoe {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*max-height: 20px;
+	margin-top: -17%;*/
+	top: -17.35em;
+	}
+	.framejoedown {
+		margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*margin-top: -17%;*/
+	top: -38.31em;
+		}
+	
+	.leftframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 36px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-left: 23.3%;
+	/*margin-top: -1.3%;*/
+	top: -18.1em;
+		}
+	.rightframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 35.5px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-right: 22.5%;
+	/*margin-top: -1.3%;*/
+	top: -37.7em;
+		
+		
+		}
+	
+	.framesidejoe {
+		width: 48.5%;
+		
+		}
+		
+	#joefixed {
+		
+		position:fixed; 
+		z-index:1000; 
+		top: 4.4em;
+		
+		}
+		
+	.bannerjoe {
+	top: -11em;
+	margin-left: 4.5%;
+	margin-bottom: 3%;
+	position: relative;
+	z-index: 0;
+		
+		}
+	.iosifbranch {	/*----   Added by Iosif Crisan   ----*/
+	background-size: 50% 0%;
+	width: 40%;
+	position: relative;
+	z-index: 1;
+	margin-left: 84%;
+	/*margin-top:-9%}*/
+	top:-62em; }
+	
+	.banner { /*Distance from top for the revolution slider*/
+		margin-top: 3.9em;
+		}
+	
+	.logoimg {
+	background-position: 50% 0%;
+	width:inherit;
+	
+	}
+	.iosiflogo {
+	width: inherit;
+	margin-left:39%}
+	}
+	
+	@media screen and (width: 1440px){
+	/* Styles */
+	html {
+	height:inherit;
+	background: url('http://www.fluffymaplepuffpuffs.com/wp-content/uploads/2014/05/bgr.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position-y: -6%;
+		}
+		
+	.main-content {
+	/*margin-top: -6.5%*/
+	top: -64.7em;
+	height: 470px;
+		
+		}
+	
+	.framejoe {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*max-height: 20px;
+	margin-top: -17%;*/
+	top: -17.35em;
+	}
+	.framejoedown {
+		margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*margin-top: -17%;*/
+	top: -38.1em;
+		}
+	
+	.leftframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 36px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-left: 14.5%;
+	/*margin-top: -1.3%;*/
+	top: -18.1em;
+		}
+	.rightframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 35.5px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-right: 13.3%;
+	/*margin-top: -1.3%;*/
+	top: -37.7em;
+		
+		
+		}
+	
+	.framesidejoe {
+		width: 48.5%;
+		
+		}
+		
+	#joefixed {
+		
+		position:fixed; 
+		z-index:1000; 
+		top:5.5em;
+		
+		}
+		
+	.bannerjoe {
+	top:-11em;
+	margin-left: 0.5%;
+	margin-bottom: 3%;
+	position: relative;
+	z-index: 0;
+		
+		}
+	.iosifbranch {	/*----   Added by Iosif Crisan   ----*/
+	background-size: 50% 0%;
+	width: 27%;
+	position: relative;
+	z-index: 1;
+	margin-left: 84%;
+	/*margin-top:-9%}*/
+	top:-63em; }
+	
+	.banner { /*Distance from top for the revolution slider*/
+		margin-top: 3.9em;
+		}
+	}
+	
+	@media screen and (width: 1600px){
+	/* Styles */
+	html {
+	height:inherit;
+	background: url('http://www.fluffymaplepuffpuffs.com/wp-content/uploads/2014/05/bgr.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position-y: -6%;
+		}
+		
+	.main-content {
+	/*margin-top: -6.5%*/
+	top: -65.7em;
+	height: 470px;
+		
+		}
+	
+	.framejoe {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*max-height: 20px;
+	margin-top: -17%;*/
+	top: -17.35em;
+	}
+	.framejoedown {
+		margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*margin-top: -17%;*/
+	top: -38.4em;
+		}
+	
+	.leftframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 36px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-left: 18%;
+	/*margin-top: -1.3%;*/
+	top: -18.1em;
+		}
+	.rightframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 35.5px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-right: 17%;
+	/*margin-top: -1.3%;*/
+	top: -37.7em;
+		
+		
+		}
+	
+	.framesidejoe {
+		width: 48.5%;
+		
+		}
+		
+	#joefixed {
+		
+		position:fixed; 
+		z-index:1000; 
+		top:6.4em;
+		
+		}
+		
+	.bannerjoe {
+	top:-11em;
+	margin-left: 0.5%;
+	margin-bottom: 3%;
+	position: relative;
+	z-index: 0;
+		
+		}
+	.iosifbranch {	/*----   Added by Iosif Crisan   ----*/
+	background-size: 50% 0%;
+	width: 27%;
+	position: relative;
+	z-index: 1;
+	margin-left: 84%;
+	/*margin-top:-9%}*/
+	top:-63em; }
+	
+	.banner { /*Distance from top for the revolution slider*/
+		margin-top: 3.9em;
+		}
+	}
+	
+	@media screen and (width: 1680px){
+	/* Styles */
+	html {
+	height:inherit;
+	background: url('http://www.fluffymaplepuffpuffs.com/wp-content/uploads/2014/05/bgr.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position-y: -6%;
+		}
+		
+	.main-content {
+	/*margin-top: -6.5%*/
+	top: -66em;
+	height: 470px;
+		
+		}
+	
+	.framejoe {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*max-height: 20px;
+	margin-top: -17%;*/
+	top: -17.35em;
+	}
+	.framejoedown {
+		margin: 0 auto;
+	max-width: 1000px;
+	width: auto;
+	/*height: 8%;*/
+	position: relative;
+	z-index: 10;
+	/*margin-top: -17%;*/
+	top: -38.4em;
+		}
+	
+	.leftframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 36px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-left: 19.5%;
+	/*margin-top: -1.3%;*/
+	top: -18.1em;
+		}
+	.rightframejoe {
+		margin: 0 auto;
+	/*max-width: 23%;*/
+	width: 35.5px;
+	height: 8%;
+	position: relative;
+	z-index: 10;
+	margin-right: 18.5%;
+	/*margin-top: -1.3%;*/
+	top: -37.7em;
+		
+		
+		}
+	
+	.framesidejoe {
+		width: 48.5%;
+		
+		}
+		
+	#joefixed {
+		
+		position:fixed; 
+		z-index:1000; 
+		top:6.85em;
+		
+		}
+		
+	.bannerjoe {
+	top:-11em;
+	margin-left: 0.5%;
+	margin-bottom: 3%;
+	position: relative;
+	z-index: 0;
+		
+		}
+	.iosifbranch {	/*----   Added by Iosif Crisan   ----*/
+	background-size: 50% 0%;
+	width: 27%;
+	position: relative;
+	z-index: 1;
+	margin-left: 84%;
+	/*margin-top:-9%}*/
+	top:-63em; }
+	
+	.banner { /*Distance from top for the revolution slider*/
+		margin-top: 3.9em;
+		}
+	}
 	
 	/* Large screens ----------- */
 	@media only screen 
