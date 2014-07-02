@@ -536,6 +536,8 @@ Text Domain: iamd_text_domain
 	
 	
 	}/*----   Added by Iosif Crisan   ----*/
+	
+
 	body {
 		
 	
@@ -721,9 +723,9 @@ background-size: 105% 32%, 100% 100%;*/
 	html {
 	height:inherit;
 	background: url('http://www.fluffymaplepuffpuffs.com/wp-content/uploads/2014/05/bgr.jpg');
-	background-size: 100% auto;
+	background-size: 100% 26%;
 	background-repeat: no-repeat;
-	background-position-y: -6%;
+	background-position: 101% 8%;
 		}
 		
 	.main-content {

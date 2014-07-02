@@ -99,7 +99,35 @@
                               </div>
                                   
                               <div class="entry-detail">
-                                  <h2><?php the_title(); ?></h2><?php
+                                  <h2 class="joeposttitle"><?php the_title(); ?></h2><?php
+								  
+$title = get_post_meta($post->ID, 'title', true);
+if ($title == 'no') {
+?>
+
+<style>
+.joeposttitle {
+display:none;
+}
+</style>
+
+
+<?php }
+
+$featimg = get_post_meta($post->ID, 'featimg', true);
+if ($featimg == 'no') {
+?>
+
+<style>
+.entry-thumb {
+display:none;
+}
+</style>
+
+
+<?php }
+								  
+								  
                                   //PAGE TOP CODE...
                                   if(dt_theme_option('integration', 'enable-single-post-top-code') != '') echo stripslashes(dt_theme_option('integration', 'single-post-top-code'));
                                   the_content();

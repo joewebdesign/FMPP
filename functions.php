@@ -1,5 +1,6 @@
 <?php
 
+
 if (! defined ( 'IAMD_BASE_URL' )) {
 
 	define ( 'IAMD_BASE_URL', get_template_directory_uri () . '/' );

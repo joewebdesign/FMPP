@@ -13,7 +13,7 @@ body {
 
 /********* HEADER **************/
 
-#footer, .top-bar, .widget_categories ul li a span, .widget_archive ul li a span, .dt-sc-entry-title span, .gallery-carousel-arrows a:hover { background:#FFFF52; }
+#footer, .top-bar, .widget_categories ul li a span, .widget_archive ul li a span, .dt-sc-entry-title span, .gallery-carousel-arrows a:hover { background:#ffff52; }
 
 .top-bar, .top-bar a, #cart-summary li [class^="icon-"], .gallery-carousel-arrows a:hover { color:#A7603C; width:100% }
 
@@ -174,9 +174,9 @@ ul.commentlist li.comment { border-color:#cbc3aa; }
 
 /********* FOOTER **************/
 
-#footer { border-color:#e28354; }
+#footer { border-color:#ff7021; }
 
-.footer-info { background: #e28354; }
+.footer-info { background: #ff7021; }
 
 
 
